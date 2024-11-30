@@ -11,8 +11,8 @@
 **如遇无法添加，请+ vx: iamxxn886**
 <hr />
 
-![](https://raw.githubusercontent.com/HuggingAGI/HuggingArxiv/main/paper_images/2408.06634/llm_framework.png)
-![](https://raw.githubusercontent.com/HuggingAGI/HuggingArxiv/main/paper_images/2408.06634/x1.png)
+![](/opt/data/Projects/HuggingArxiv/paper_images/2408.06634/llm_framework.png)
+![](/opt/data/Projects/HuggingArxiv/paper_images/2408.06634/x1.png)
 
 <hr />
 
