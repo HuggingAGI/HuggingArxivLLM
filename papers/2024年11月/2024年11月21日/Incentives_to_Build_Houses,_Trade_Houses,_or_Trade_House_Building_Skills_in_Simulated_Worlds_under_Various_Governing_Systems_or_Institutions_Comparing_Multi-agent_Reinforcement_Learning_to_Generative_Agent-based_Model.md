@@ -1,0 +1,15 @@
+# 在不同治理体系或制度下的模拟世界里，有关建造房屋、交易房屋或交易房屋建造技能的激励举措：对多智能体强化学习与基于生成智能体的模型加以比较
+
+发布时间：2024年11月21日
+
+`Agent` `经济学` `人工智能`
+
+> Incentives to Build Houses, Trade Houses, or Trade House Building Skills in Simulated Worlds under Various Governing Systems or Institutions: Comparing Multi-agent Reinforcement Learning to Generative Agent-based Model
+
+# 摘要
+
+> 已有研究表明，社会制度会影响人类产生不同行为的动机，比如工作的量或者劳动的专业化程度。随着人工智能（AI）的进步，尤其是大型语言模型（LLMs）的出现，如今能够通过计算机模拟来检验围绕此主题的各类假设。在此，我借助人工智能经济学家的多智能体强化学习（MARL）框架和康科迪亚的基于生成智能体的模型（GABM）框架，模拟了两个颇为相似的世界。在人工智能经济学家和康科迪亚的扩展版本里，智能体能够建造房屋、进行房屋交易以及交易房屋建造技能。此外，沿着个人主义 - 集体主义轴线，存在一组三个治理系统：完全自由主义、半自由主义/功利主义和完全功利主义。再者，在扩展的人工智能经济学家中，半自由主义/功利主义系统沿着歧视轴线进一步被划分为一组三个治理机构：包容性、任意性和提取性。基于此，我能够指出，在扩展的人工智能经济学家的治理系统和机构里，在半自由主义/功利主义和包容性政府的治理下，建造房屋与交易房屋以及交易房屋建造技能的比率要高于其他情形。另外，我能够表明，在扩展的康科迪亚中，当中央政府关注社会平等时，完全功利主义系统会促使智能体建造更多房屋以及进行更多房屋建造技能的交易。相比之下，当中央政府关注社会生产力时，这些经济活动在完全自由主义系统下更为活跃。总的来说，本文重点在于对人工智能的两种先进技术——MARL 和 GABM 进行比较和对照，以模拟具有局限性的类似社会现象。
+
+> It has been shown that social institutions impact human motivations to produce different behaviours, such as amount of working or specialisation in labor. With advancement in artificial intelligence (AI), specifically large language models (LLMs), now it is possible to perform in-silico simulations to test various hypotheses around this topic. Here, I simulate two somewhat similar worlds using multi-agent reinforcement learning (MARL) framework of the AI-Economist and generative agent-based model (GABM) framework of the Concordia. In the extended versions of the AI-Economist and Concordia, the agents are able to build houses, trade houses, and trade house building skill. Moreover, along the individualistic-collectivists axis, there are a set of three governing systems: Full-Libertarian, Semi-Libertarian/Utilitarian, and Full-Utilitarian. Additionally, in the extended AI-Economist, the Semi-Libertarian/Utilitarian system is further divided to a set of three governing institutions along the discriminative axis: Inclusive, Arbitrary, and Extractive. Building on these, I am able to show that among governing systems and institutions of the extended AI-Economist, under the Semi-Libertarian/Utilitarian and Inclusive government, the ratios of building houses to trading houses and trading house building skill are higher than the rest. Furthermore, I am able to show that in the extended Concordia when the central government care about equality in the society, the Full-Utilitarian system generates agents building more houses and trading more house building skill. In contrast, these economic activities are higher under the Full-Libertarian system when the central government cares about productivity in the society. Overall, the focus of this paper is to compare and contrast two advanced techniques of AI, MARL and GABM, to simulate a similar social phenomena with limitations.
+
+[Arxiv](https://arxiv.org/abs/2411.17724)
