@@ -1,0 +1,15 @@
+# EgoPlan-Bench2：现实场景中多模态大型语言模型规划的基准
+
+发布时间：2024年12月05日
+
+`LLM应用` `人工智能` `通用人工智能`
+
+> EgoPlan-Bench2: A Benchmark for Multimodal Large Language Model Planning in Real-World Scenarios
+
+# 摘要
+
+> 多模态大型语言模型的问世，凭借大型语言模型的强大实力，近来展现出了超凡的多模态理解与推理能力，为通用人工智能拉开了崭新的序幕。然而，要实现通用人工智能，光有理解和推理能力是不够的。关键还在于在不同场景下进行有效的规划，这意味着要依据复杂的环境做出合理的决策，从而解决现实世界的问题。尽管规划能力至关重要，但当前多模态大型语言模型在各类场景中的规划能力仍有待深入探究。在本文中，我们引入了 EgoPlan-Bench2，这是一个严谨且全面的基准测试，旨在评估多模态大型语言模型在众多现实场景中的规划能力。EgoPlan-Bench2 包含了横跨 4 个主要领域和 24 个细分场景的日常任务，与人类的日常生活紧密相连。EgoPlan-Bench2 是通过利用以自我为中心的视频的半自动流程构建而成，并经过了人工验证。基于第一人称视角，它反映了人类在日常生活中解决问题的方式。我们对 21 个具有竞争力的多模态大型语言模型进行了评估，并深入剖析了它们的局限性，发现它们在现实世界的规划中面临着严峻的挑战。为了进一步提升当前多模态大型语言模型的规划水平，我们通过研究各种多模态提示在复杂规划中的效果，提出了一种无需训练的多模态思维链（CoT）提示方法。我们的方法让 GPT-4V 在 EgoPlan-Bench2 上的性能提升了 10.24，且无需额外训练。我们的工作不仅揭示了多模态大型语言模型在规划方面的现存短板，还为这一关键领域的未来改进提供了思路。我们已在 https://qiulu66.github.io/egoplanbench2/ 上公开了数据和代码。
+
+> The advent of Multimodal Large Language Models, leveraging the power of Large Language Models, has recently demonstrated superior multimodal understanding and reasoning abilities, heralding a new era for artificial general intelligence. However, achieving AGI necessitates more than just comprehension and reasoning. A crucial capability required is effective planning in diverse scenarios, which involves making reasonable decisions based on complex environments to solve real-world problems. Despite its importance, the planning abilities of current MLLMs in varied scenarios remain underexplored. In this paper, we introduce EgoPlan-Bench2, a rigorous and comprehensive benchmark designed to assess the planning capabilities of MLLMs across a wide range of real-world scenarios. EgoPlan-Bench2 encompasses everyday tasks spanning 4 major domains and 24 detailed scenarios, closely aligned with human daily life. EgoPlan-Bench2 is constructed through a semi-automatic process utilizing egocentric videos, complemented by manual verification. Grounded in a first-person perspective, it mirrors the way humans approach problem-solving in everyday life. We evaluate 21 competitive MLLMs and provide an in-depth analysis of their limitations, revealing that they face significant challenges in real-world planning. To further improve the planning proficiency of current MLLMs, we propose a training-free approach using multimodal Chain-of-Thought (CoT) prompting through investigating the effectiveness of various multimodal prompts in complex planning. Our approach enhances the performance of GPT-4V by 10.24 on EgoPlan-Bench2 without additional training. Our work not only sheds light on the current limitations of MLLMs in planning, but also provides insights for future enhancements in this critical area. We have made data and code available at https://qiulu66.github.io/egoplanbench2/.
+
+[Arxiv](https://arxiv.org/abs/2412.04447)
