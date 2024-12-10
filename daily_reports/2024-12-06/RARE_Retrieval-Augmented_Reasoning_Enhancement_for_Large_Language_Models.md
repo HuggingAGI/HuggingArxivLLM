@@ -1,5 +1,5 @@
 # RARE：大型语言模型的检索增强推理强化
-发布时间：2024年12月05日
+发布时间：2024年12月09日
 
 `RAG`
 > RARE: Retrieval-Augmented Reasoning Enhancement for Large Language Models

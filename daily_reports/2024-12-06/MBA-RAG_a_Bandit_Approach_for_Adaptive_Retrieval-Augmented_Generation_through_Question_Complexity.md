@@ -1,5 +1,5 @@
 # MBA-RAG：一种基于问题复杂程度实现自适应检索增强生成的Bandit方法
-发布时间：2024年12月03日
+发布时间：2024年12月07日
 
 `RAG`
 > MBA-RAG: a Bandit Approach for Adaptive Retrieval-Augmented Generation through Question Complexity
