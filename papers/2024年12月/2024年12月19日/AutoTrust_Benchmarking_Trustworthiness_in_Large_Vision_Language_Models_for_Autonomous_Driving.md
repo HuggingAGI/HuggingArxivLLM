@@ -1,0 +1,15 @@
+# AutoTrust：针对自动驾驶，在大型视觉语言模型中对可信度展开基准测试
+
+发布时间：2024年12月19日
+
+`LLM应用` `自动驾驶` `公共交通`
+
+> AutoTrust: Benchmarking Trustworthiness in Large Vision Language Models for Autonomous Driving
+
+# 摘要
+
+> 近期专为自动驾驶（AD）打造的大型视觉语言模型（VLMs）取得了显著进展，展现出强大的场景理解与推理能力，成为端到端驾驶系统的理想之选。然而，针对自动驾驶视觉语言模型（DriveVLMs）可信度的研究工作颇为有限，而这是直接关乎公共交通安全的关键要素。本文中，我们推出了 AutoTrust，这是针对自动驾驶中大型视觉语言模型（DriveVLMs）的综合性可信度基准，涵盖了包括可信度、安全性、鲁棒性、隐私性和公平性等多种维度。我们构建了用于探究驾驶场景中可信度问题的最大视觉问答数据集，包含超 1 万个独特场景和 1.8 万个问题。我们对六个公开可用的 VLMs 进行了评估，涵盖从通用型到专业型，从开源到商业模型。我们全面的评估揭示了 DriveVLMs 此前未曾发现的面对可信度威胁时的脆弱性。具体来说，像 LLaVA-v1.6 和 GPT-4o-mini 这类通用 VLMs 在整体可信度方面竟意外地优于为驾驶专门微调的专业模型。像 DriveLM-Agent 这样的 DriveVLMs 尤其容易泄露敏感信息。此外，通用型和专业型 VLMs 均易遭受对抗性攻击，且难以在不同环境和人群中确保无偏决策。我们的发现呼吁立即采取果断行动解决 DriveVLMs 的可信度问题，这对于公共安全以及依赖自动驾驶交通系统的所有公民的福祉至关重要。我们的基准可在 url{https://github.com/taco-group/AutoTrust} 公开获取，排行榜发布于 url{https://taco-group.github.io/AutoTrust/}。
+
+> Recent advancements in large vision language models (VLMs) tailored for autonomous driving (AD) have shown strong scene understanding and reasoning capabilities, making them undeniable candidates for end-to-end driving systems. However, limited work exists on studying the trustworthiness of DriveVLMs -- a critical factor that directly impacts public transportation safety. In this paper, we introduce AutoTrust, a comprehensive trustworthiness benchmark for large vision-language models in autonomous driving (DriveVLMs), considering diverse perspectives -- including trustfulness, safety, robustness, privacy, and fairness. We constructed the largest visual question-answering dataset for investigating trustworthiness issues in driving scenarios, comprising over 10k unique scenes and 18k queries. We evaluated six publicly available VLMs, spanning from generalist to specialist, from open-source to commercial models. Our exhaustive evaluations have unveiled previously undiscovered vulnerabilities of DriveVLMs to trustworthiness threats. Specifically, we found that the general VLMs like LLaVA-v1.6 and GPT-4o-mini surprisingly outperform specialized models fine-tuned for driving in terms of overall trustworthiness. DriveVLMs like DriveLM-Agent are particularly vulnerable to disclosing sensitive information. Additionally, both generalist and specialist VLMs remain susceptible to adversarial attacks and struggle to ensure unbiased decision-making across diverse environments and populations. Our findings call for immediate and decisive action to address the trustworthiness of DriveVLMs -- an issue of critical importance to public safety and the welfare of all citizens relying on autonomous transportation systems. Our benchmark is publicly available at url{https://github.com/taco-group/AutoTrust}, and the leaderboard is released at url{https://taco-group.github.io/AutoTrust/}.
+
+[Arxiv](https://arxiv.org/abs/2412.15206)
