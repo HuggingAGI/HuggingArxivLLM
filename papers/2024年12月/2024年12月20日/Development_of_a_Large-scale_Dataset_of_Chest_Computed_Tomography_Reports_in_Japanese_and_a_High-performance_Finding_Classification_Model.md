@@ -1,0 +1,15 @@
+# 开发大规模的日语胸部计算机断层扫描报告数据集以及高性能的发现分类模型
+
+发布时间：2024年12月20日
+
+`LLM应用` `医学影像`
+
+> Development of a Large-scale Dataset of Chest Computed Tomography Reports in Japanese and a High-performance Finding Classification Model
+
+# 摘要
+
+> 背景：大型语言模型的最新进展突显了对高质量多语言医疗数据集的需求。在 CT 扫描仪的部署和使用上，日本处于全球领先地位，然而大规模日本放射学数据集的缺失，阻碍了用于医学影像分析的专业语言模型的发展。目标：借助机器翻译构建一个全面的日本 CT 报告数据集，并创建一个用于结构化发现分类的专业语言模型。另外，通过专家放射科医生审查打造一个经过严格验证的评估数据集。方法：我们使用 GPT-4o mini 将 CT-RATE 数据集（来自 21304 名患者的 24283 份 CT 报告）翻译成日语。训练数据集包含 22778 份机器翻译的报告，验证数据集则有 150 份经放射科医生修订的报告。我们基于“tohoku-nlp/bert-base-japanese-v3”架构开发了 CT-BERT-JPN，用于从日本放射学报告中提取 18 个结构化发现。结果：翻译指标表现出色，BLEU 分数为 0.731 和 0.690，ROUGE 分数在 Findings 部分为 0.770 至 0.876，在 Impression 部分为 0.748 至 0.857。CT-BERT-JPN 在 18 个条件中的 11 个条件下比 GPT-4o 表现更优，比如淋巴结病（+14.2%）、小叶间隔增厚（+10.9%）和肺不张（+7.4%）。该模型在 18 个条件中的 14 个条件下 F1 分数超过 0.95，且在四个条件下获得满分。结论：我们的研究构建了一个强大的日本 CT 报告数据集，也证明了用于结构化发现分类的专业语言模型的有效性。机器翻译与专家验证相结合的方式，既能创建大规模医疗数据集，又能保证高质量。
+
+> Background: Recent advances in large language models highlight the need for high-quality multilingual medical datasets. While Japan leads globally in CT scanner deployment and utilization, the lack of large-scale Japanese radiology datasets has hindered the development of specialized language models for medical imaging analysis. Objective: To develop a comprehensive Japanese CT report dataset through machine translation and establish a specialized language model for structured finding classification. Additionally, to create a rigorously validated evaluation dataset through expert radiologist review. Methods: We translated the CT-RATE dataset (24,283 CT reports from 21,304 patients) into Japanese using GPT-4o mini. The training dataset consisted of 22,778 machine-translated reports, while the validation dataset included 150 radiologist-revised reports. We developed CT-BERT-JPN based on "tohoku-nlp/bert-base-japanese-v3" architecture for extracting 18 structured findings from Japanese radiology reports. Results: Translation metrics showed strong performance with BLEU scores of 0.731 and 0.690, and ROUGE scores ranging from 0.770 to 0.876 for Findings and from 0.748 to 0.857 for Impression sections. CT-BERT-JPN demonstrated superior performance compared to GPT-4o in 11 out of 18 conditions, including lymphadenopathy (+14.2%), interlobular septal thickening (+10.9%), and atelectasis (+7.4%). The model maintained F1 scores exceeding 0.95 in 14 out of 18 conditions and achieved perfect scores in four conditions. Conclusions: Our study establishes a robust Japanese CT report dataset and demonstrates the effectiveness of a specialized language model for structured finding classification. The hybrid approach of machine translation and expert validation enables the creation of large-scale medical datasets while maintaining high quality.
+
+[Arxiv](https://arxiv.org/abs/2412.15907)
