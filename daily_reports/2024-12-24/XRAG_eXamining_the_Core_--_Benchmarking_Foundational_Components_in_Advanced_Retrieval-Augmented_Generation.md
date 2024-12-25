@@ -1,5 +1,5 @@
 # XRAG: 探究核心——为高级检索增强生成中的基础组件设立基准
-发布时间：2024年12月19日
+发布时间：2024年12月24日
 
 `RAG`
 > XRAG: eXamining the Core -- Benchmarking Foundational Components in Advanced Retrieval-Augmented Generation
