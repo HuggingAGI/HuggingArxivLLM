@@ -1,5 +1,5 @@
 # 《RAG 之海盗：自适应攻击 LLMs 以泄露知识库》
-发布时间：2024年12月24日
+发布时间：2024年12月29日
 
 `RAG`
 > Pirates of the RAG: Adaptively Attacking LLMs to Leak Knowledge Bases
