@@ -1,5 +1,5 @@
 # 人工智能能否助力您的个人财务打理？
-发布时间：2024年12月27日
+发布时间：2025年01月03日
 
 
 > Can AI Help with Your Personal Finances?
