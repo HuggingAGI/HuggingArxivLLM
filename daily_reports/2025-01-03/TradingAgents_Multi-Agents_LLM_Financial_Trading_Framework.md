@@ -1,5 +1,5 @@
 # TradingAgents：多智能体 LLM 金融交易框架
-发布时间：2025年01月09日
+发布时间：2025年01月10日
 
 `Agent应用`
 > TradingAgents: Multi-Agents LLM Financial Trading Framework
