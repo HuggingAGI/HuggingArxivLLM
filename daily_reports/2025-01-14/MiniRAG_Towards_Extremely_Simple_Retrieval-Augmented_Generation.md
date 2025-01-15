@@ -1,5 +1,5 @@
 # MiniRAG：极简检索增强生成
-发布时间：2025年01月11日
+发布时间：2025年01月14日
 
 `RAG`
 > MiniRAG: Towards Extremely Simple Retrieval-Augmented Generation
