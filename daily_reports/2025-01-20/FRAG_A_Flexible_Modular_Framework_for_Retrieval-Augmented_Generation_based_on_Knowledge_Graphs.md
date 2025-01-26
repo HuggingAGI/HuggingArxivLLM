@@ -1,5 +1,5 @@
 # FRAG: 基于知识图谱的灵活模块化检索增强生成框架
-发布时间：2025年01月17日
+发布时间：2025年01月22日
 
 `RAG`
 > FRAG: A Flexible Modular Framework for Retrieval-Augmented Generation based on Knowledge Graphs
