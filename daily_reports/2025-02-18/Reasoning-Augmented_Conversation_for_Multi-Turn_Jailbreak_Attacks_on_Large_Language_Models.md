@@ -1,5 +1,5 @@
 # 推理增强对话：针对大型语言模型的多轮越狱攻击研究
-发布时间：2025年02月16日
+发布时间：2025年02月17日
 
 `模型安全`
 > Reasoning-Augmented Conversation for Multi-Turn Jailbreak Attacks on Large Language Models
