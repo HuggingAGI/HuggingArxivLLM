@@ -1,6 +1,6 @@
 # # Safety Evaluation of DeepSeek Models in Chinese Contexts
 # DeepSeek 模型在中文语境中的安全性评估
-发布时间：2025年02月16日
+发布时间：2025年02月20日
 
 `模型安全`
 > Safety Evaluation of DeepSeek Models in Chinese Contexts
