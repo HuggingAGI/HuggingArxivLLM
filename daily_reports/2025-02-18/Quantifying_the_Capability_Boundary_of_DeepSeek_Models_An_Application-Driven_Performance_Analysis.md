@@ -1,5 +1,5 @@
 # 探索DeepSeek模型的能力边界：应用驱动的性能分析
-发布时间：2025年02月16日
+发布时间：2025年02月21日
 
 `DEEPSEEK`
 > Quantifying the Capability Boundary of DeepSeek Models: An Application-Driven Performance Analysis
