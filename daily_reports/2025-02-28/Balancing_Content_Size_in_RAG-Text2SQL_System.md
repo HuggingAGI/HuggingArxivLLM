@@ -1,5 +1,5 @@
 # # 平衡 RAG-Text2SQL 系统中的内容规模问题
-发布时间：2025年01月28日
+发布时间：2025年03月11日
 
 `RAG`
 > Balancing Content Size in RAG-Text2SQL System

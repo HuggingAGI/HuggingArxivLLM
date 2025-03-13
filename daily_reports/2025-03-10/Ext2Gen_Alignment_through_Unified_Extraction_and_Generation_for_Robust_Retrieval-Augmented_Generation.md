@@ -1,5 +1,5 @@
 # Ext2Gen：通过统一抽取与生成实现稳健的检索增强生成
-发布时间：2025年02月28日
+发布时间：2025年03月12日
 
 `RAG`
 > Ext2Gen: Alignment through Unified Extraction and Generation for Robust Retrieval-Augmented Generation
