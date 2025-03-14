@@ -1,0 +1,15 @@
+# 一个简单却极其有效的攻击基线：在GPT-4.5/4o/o1的强大黑盒模型上实现超90%成功率.
+
+发布时间：2025年03月13日
+
+`LLM应用` `人工智能`
+
+> A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1
+
+# 摘要
+
+> 尽管开源大视觉语言模型（LVLMs）表现优异，但基于迁移的定向攻击在面对黑盒商业LVLMs时往往难以奏效。通过对失败的对抗扰动进行分析，我们发现这些扰动通常源于均匀分布，缺乏清晰的语义细节，导致模型产生意外响应。这种关键的语义信息缺失使得商业LVLMs要么完全忽略扰动，要么错误解读其嵌入语义，从而导致攻击失败。为了解决这一问题，我们注意到，识别核心语义对象是各类数据集和方法训练模型的关键目标。这一洞察启发了我们的方法：通过在局部区域编码明确的语义细节来提升语义清晰度，确保互操作性并捕捉更细粒度的特征；同时，将修改集中在语义丰富的区域，而非均匀分布。为此，我们提出了一种简单而高效的解决方案：在每个优化步骤中，随机裁剪对抗图像的长宽比和缩放，调整大小后，将其与目标图像在嵌入空间中对齐。实验结果证实了我们的假设。我们专注于关键区域的局部聚合扰动生成的对抗示例，对包括GPT-4.5、GPT-4o、Gemini-2.0-flash、Claude-3.5-sonnet、Claude-3.7-sonnet，甚至推理模型如o1、Claude-3.7-thinking和Gemini-2.0-flash-thinking在内的商业LVLMs表现出惊人的迁移能力。在GPT-4.5、4o和o1上，我们的方法实现了超过90%的成功率，显著优于所有先前的最先进攻击方法。我们的优化对抗示例的不同配置和训练代码可在GitHub仓库https://github.com/VILA-Lab/M-Attack中获取。
+
+> Despite promising performance on open-source large vision-language models (LVLMs), transfer-based targeted attacks often fail against black-box commercial LVLMs. Analyzing failed adversarial perturbations reveals that the learned perturbations typically originate from a uniform distribution and lack clear semantic details, resulting in unintended responses. This critical absence of semantic information leads commercial LVLMs to either ignore the perturbation entirely or misinterpret its embedded semantics, thereby causing the attack to fail. To overcome these issues, we notice that identifying core semantic objects is a key objective for models trained with various datasets and methodologies. This insight motivates our approach that refines semantic clarity by encoding explicit semantic details within local regions, thus ensuring interoperability and capturing finer-grained features, and by concentrating modifications on semantically rich areas rather than applying them uniformly. To achieve this, we propose a simple yet highly effective solution: at each optimization step, the adversarial image is cropped randomly by a controlled aspect ratio and scale, resized, and then aligned with the target image in the embedding space. Experimental results confirm our hypothesis. Our adversarial examples crafted with local-aggregated perturbations focused on crucial regions exhibit surprisingly good transferability to commercial LVLMs, including GPT-4.5, GPT-4o, Gemini-2.0-flash, Claude-3.5-sonnet, Claude-3.7-sonnet, and even reasoning models like o1, Claude-3.7-thinking and Gemini-2.0-flash-thinking. Our approach achieves success rates exceeding 90% on GPT-4.5, 4o, and o1, significantly outperforming all prior state-of-the-art attack methods. Our optimized adversarial examples under different configurations and training code are available at https://github.com/VILA-Lab/M-Attack.
+
+[Arxiv](https://arxiv.org/abs/2503.10635)
