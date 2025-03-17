@@ -1,0 +1,15 @@
+# Chat-TS：提升时间序列与自然语言数据的多模态推理能力
+
+发布时间：2025年03月13日
+
+`LLM应用`
+
+> Chat-TS: Enhancing Multi-Modal Reasoning Over Time-Series and Natural Language Data
+
+# 摘要
+
+> 时间序列分析在医疗、金融、交通和能源等领域发挥着重要作用。在实际应用中，我们常常需要结合时间序列数据和自然语言描述的上下文信息，以支持明智的决策。然而，现有的时间序列模型在同时处理时间序列和文本内容的推理任务时表现有限。为此，我们推出了	extit{Chat-TS}，这是一个基于大型语言模型（LLM）的框架，专为支持时间序列和文本数据的推理而设计。与传统模型不同，Chat-TS将时间序列标记融入LLM的词汇体系，使其在增强对两种数据模态的推理能力的同时，依然保持强大的自然语言处理能力，从而实现跨模态的高效分析与推理。为了支持模型的学习与评估，我们开发了三个全新数据集：用于指令微调的	extit{TS Instruct Training Dataset}，它将多样化的时序数据与相关文本指令和响应配对；用于评估多模态推理能力的	extit{TS Instruct Question and Answer (QA) Gold Dataset}，它提供了一系列多选题；以及用于LLM评估的	extit{TS Instruct Quantitative Probing Set}，它包含了部分TS Instruct QA任务，同时还加入数学和决策问题。我们设计了一种创新的训练策略，在保持LLM原有推理能力的同时，进一步强化其在时间序列推理方面的表现。实验结果表明，Chat-TS在多模态推理任务中达到了当前最先进的水平，不仅保持了强大的自然语言处理能力，还在时间序列推理方面取得了显著提升。~ootnote{为了确保研究的可重复性并促进未来研究，所有模型、数据集和代码将在[	exttt{Github-URL}]上公开。}
+
+> Time-series analysis is critical for a wide range of fields such as healthcare, finance, transportation, and energy, among many others. The practical applications often involve analyzing time-series data alongside contextual information in the form of natural language to support informed decisions. However, current time-series models are limited in their ability to perform reasoning that involves both time-series and their textual content. In this work, we address this gap by introducing \textit{Chat-TS}, a large language model (LLM) based framework, designed to support reasoning over time series and textual data. Unlike traditional models, Chat-TS integrates time-series tokens into LLMs' vocabulary, enhancing its reasoning ability over both modalities without compromising the core natural language capabilities, enabling practical analysis and reasoning across modalities. To support learning and evaluation in this setup, we contribute new datasets: the \textit{TS Instruct Training Dataset} which pairs diverse time-series data with relevant text instructions and responses for instruction tuning, the \textit{TS Instruct Question and Answer (QA) Gold Dataset} which provides multiple-choice questions designed to evaluate multimodal reasoning, and a \textit{TS Instruct Quantitative Probing Set} which contains a small subset of the TS Instruct QA tasks alongside math and decision-making questions for LLM evaluation. We designed a training strategy to preserve the inherent reasoning capabilities of LLMs while augmenting them for time-series reasoning. Experiments show that Chat-TS achieves state-of-the-art performance in multi-modal reasoning tasks by maintaining strong natural language proficiency while improving time-series reasoning. ~\footnote{To ensure replicability and facilitate future research, all models, datasets, and code will be available at [\texttt{Github-URL}].}
+
+[Arxiv](https://arxiv.org/abs/2503.10883)
