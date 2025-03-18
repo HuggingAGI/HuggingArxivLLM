@@ -9,7 +9,7 @@
 
 通过全面调查和总结针对智能体和MAS新出现的攻击、防御和评估方法，我们将可信LLM的概念扩展到了新兴的可信智能体范式。在TrustAgent框架中，我们首先分解并介绍了智能体和MAS的各种组件。然后，我们将它们的可信性分为内在（大脑、记忆和工具）和外在（用户、智能体和环境）两个方面。接着，我们阐述了可信性的多方面含义，并详细说明了现有研究中与这些内部和外部模块相关的实现技术。最后，我们提出了对我们领域的一些见解和展望，旨在为未来的研究提供指导。
 >
-> https://arxiv.org/pdf/2503.09648
+> https://arxiv.org/abs/2503.09648
 
 **如遇无法添加，请+ vx: iamxxn886**
 <hr />
@@ -17,7 +17,7 @@
 
 <hr />
 
-- 论文原文: [https://arxiv.org/pdf/2503.09648](https://arxiv.org/pdf/2503.09648)
+- 论文原文: [https://arxiv.org/abs/2503.09648](https://arxiv.org/abs/2503.09648)
 - 获取更多最新Arxiv论文更新: [https://github.com/HuggingAGI/HuggingArxiv](https://github.com/HuggingAGI/HuggingArxiv)!
 - 加入社群，+v: iamxxn886
 - 点击公众号菜单加入讨论
