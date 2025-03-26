@@ -1,5 +1,5 @@
 # RAGO：系统性优化检索增强生成服务性能
-发布时间：2025年03月18日
+发布时间：2025年03月21日
 
 `RAG`
 > RAGO: Systematic Performance Optimization for Retrieval-Augmented Generation Serving

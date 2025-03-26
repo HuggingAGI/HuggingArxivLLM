@@ -1,5 +1,5 @@
 # RePanda：基于Pandas的高效表格验证与推理工具
-发布时间：2025年03月14日
+发布时间：2025年03月20日
 
 
 > RePanda: Pandas-powered Tabular Verification and Reasoning
