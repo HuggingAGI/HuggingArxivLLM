@@ -1,5 +1,5 @@
 # ReSearch：强化学习助力LLMs掌握搜索推理能力
-发布时间：2025年03月25日
+发布时间：2025年03月27日
 
 `RAG`
 > ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning
