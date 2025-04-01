@@ -1,5 +1,5 @@
 # 多模态大型语言模型能否胜任深度伪造检测任务？
-发布时间：2025年03月25日
+发布时间：2025年03月29日
 
 
 > Can Multi-modal (reasoning) LLMs work as deepfake detectors?
