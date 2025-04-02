@@ -1,5 +1,5 @@
 # DAgent：基于关系型数据库驱动的数据分析报告生成器
-发布时间：2025年03月17日
+发布时间：2025年04月01日
 
 
 > DAgent: A Relational Database-Driven Data Analysis Report Generation Agent
