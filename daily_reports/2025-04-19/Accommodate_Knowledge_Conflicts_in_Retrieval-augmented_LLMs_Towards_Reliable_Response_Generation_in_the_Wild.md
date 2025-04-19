@@ -1,0 +1,21 @@
+# 处理检索增强型 LLM 中的知识冲突：实现真实场景下的可靠回答生成
+发布时间：2025年04月17日
+
+`RAG`
+> Accommodate Knowledge Conflicts in Retrieval-augmented LLMs: Towards Reliable Response Generation in the Wild
+>
+> 大型语言模型（LLMs）的快速发展显著提升了信息检索系统，特别是在响应生成（RG）领域。然而，LLMs常常因错误信息、偏见或知识过时而产生内部记忆与外部检索信息之间的冲突，这不仅削弱了响应的可靠性，还给决策带来了不确定性。本研究从信息论角度深入分析了LLMs应对知识冲突的方式，发现当冲突信息与补充信息差异显著时，LLMs能够自信地解决偏好问题；但当这种差异模糊时，LLMs的不确定性显著增加。基于这一发现，我们提出了Swin-VIB框架，通过整合变分信息瓶颈模型的流水线，实现对检索信息的自适应增强，并在响应生成中引导LLM的偏好选择。在单选、开放性问答（QA）和检索增强生成（RAG）等任务上的广泛实验验证了我们的理论，并证明了Swin-VIB的有效性。值得注意的是，与现有基线方法相比，我们的方法在单选任务上的准确率至少提升了7.54%。
+>
+> https://arxiv.org/abs/2504.12982
+
+**如遇无法添加，请+ vx: iamxxn886**
+<hr />
+
+
+<hr />
+
+- 论文原文: [https://arxiv.org/abs/2504.12982](https://arxiv.org/abs/2504.12982)
+- 获取更多最新Arxiv论文更新: [https://github.com/HuggingAGI/HuggingArxiv](https://github.com/HuggingAGI/HuggingArxiv)!
+- 加入社群，+v: iamxxn886
+- 点击公众号菜单加入讨论
+![](https://raw.githubusercontent.com/HuggingAGI/wx_assets/main/2024/07/31/1722434818326-94339e92-22f1-4472-9d27-fed232f70b5d.jpeg)
