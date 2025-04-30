@@ -1,0 +1,15 @@
+# 强化学习在大型语言模型推理中的应用——仅需一个训练样本
+
+发布时间：2025年04月29日
+
+`LLM应用` `人工智能`
+
+> Reinforcement Learning for Reasoning in Large Language Models with One Training Example
+
+# 摘要
+
+> 我们发现，使用单个训练样本的可验证奖励强化学习（1-shot RLVR）能够有效提升大型语言模型（LLMs）的数学推理能力。以Qwen2.5-Math-1.5B为基础模型进行实验，我们发现通过1-shot RLVR，模型在MATH500上的准确率从36.0%跃升至73.6%，同时在六个常见数学推理基准上的平均性能也从17.6%提升至35.7%。这一结果与包含该示例的1.2k DeepScaleR子集（MATH500: 73.6%，平均: 35.9%）的性能相匹配。这种显著提升不仅在多个模型（Qwen2.5-Math-7B、Llama3.2-3B-Instruct、DeepSeek-R1-Distill-Qwen-1.5B）和RL算法（GRPO和PPO）中得到验证，还体现在各种数学示例中（其中许多作为单个训练样本时在MATH500上带来了约30%或更高的提升）。此外，我们在1-shot RLVR过程中发现了几个有趣的现象，包括跨领域泛化能力、自我反思频率的增加，以及即使在训练准确率达到饱和后，测试性能仍持续提升的现象，我们将其命名为“饱和后泛化”。进一步分析表明，1-shot RLVR的效果主要源于策略梯度损失，这与“领悟”现象有所不同。我们还发现，在训练中引入适当的探索机制（例如通过熵损失）对提升模型性能至关重要。值得注意的是，即使不使用任何结果奖励，仅通过熵损失也能使Qwen2.5-Math-1.5B在MATH500上的性能提升27.4%。这些发现不仅为未来研究RLVR的数据效率提供了新思路，还促使我们重新审视RLVR领域的最新进展及其内在机制。我们的代码、模型和数据已开源，地址为https://github.com/ypwang61/One-Shot-RLVR。
+
+> We show that reinforcement learning with verifiable reward using one training example (1-shot RLVR) is effective in incentivizing the math reasoning capabilities of large language models (LLMs). Applying RLVR to the base model Qwen2.5-Math-1.5B, we identify a single example that elevates model performance on MATH500 from 36.0% to 73.6%, and improves the average performance across six common mathematical reasoning benchmarks from 17.6% to 35.7%. This result matches the performance obtained using the 1.2k DeepScaleR subset (MATH500: 73.6%, average: 35.9%), which includes the aforementioned example. Similar substantial improvements are observed across various models (Qwen2.5-Math-7B, Llama3.2-3B-Instruct, DeepSeek-R1-Distill-Qwen-1.5B), RL algorithms (GRPO and PPO), and different math examples (many of which yield approximately 30% or greater improvement on MATH500 when employed as a single training example). In addition, we identify some interesting phenomena during 1-shot RLVR, including cross-domain generalization, increased frequency of self-reflection, and sustained test performance improvement even after the training accuracy has saturated, a phenomenon we term post-saturation generalization. Moreover, we verify that the effectiveness of 1-shot RLVR primarily arises from the policy gradient loss, distinguishing it from the "grokking" phenomenon. We also show the critical role of promoting exploration (e.g., by adding entropy loss with an appropriate coefficient) in 1-shot RLVR training. As a bonus, we observe that applying entropy loss alone, without any outcome reward, significantly enhances Qwen2.5-Math-1.5B's performance on MATH500 by 27.4%. These findings can inspire future work on RLVR data efficiency and encourage a re-examination of both recent progress and the underlying mechanisms in RLVR. Our code, model, and data are open source at https://github.com/ypwang61/One-Shot-RLVR
+
+[Arxiv](https://arxiv.org/abs/2504.20571)
