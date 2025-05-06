@@ -1,0 +1,15 @@
+# 为移动应用的无障碍问题提供自动代码修复建议
+发布时间：2024年08月07日
+
+`Agent应用`
+
+**如遇无法添加，请+ vx: iamxxn886**
+<hr />
+
+
+<hr />
+
+- 论文原文: [https://arxiv.org/abs/2408.03827](https://arxiv.org/abs/2408.03827)
+- 获取更多最新Arxiv论文更新: [https://github.com/HuggingAGI/HuggingArxiv](https://github.com/HuggingAGI/HuggingArxiv)!
+- 加入社群，+v: iamxxn886
+![](https://files.mdnice.com/user/102394/a61f65d8-109f-4447-986e-83ed207782ef.png)
