@@ -1,0 +1,15 @@
+# # 多模态知识整合通过偏好优化赋能大型语言模型在生物医学领域的应用
+
+发布时间：2025年05月08日
+
+`LLM应用` `生物医学`
+
+> Multimodal Integrated Knowledge Transfer to Large Language Models through Preference Optimization with Biomedical Applications
+
+# 摘要
+
+> 高质量多模态生物医学数据的稀缺性限制了预训练大型语言模型（LLMs）在特定生物医学任务上的微调效果。针对这一挑战，我们提出了MINT（Multimodal Integrated kNowledge Transfer）框架，通过偏好优化将单模态大型解码模型与多模态生物医学数据中的特定领域决策模式进行对齐。虽然MINT支持多种优化技术，但我们主要采用Odds Ratio Preference Optimization (ORPO)框架作为其核心实现。这种策略使对齐后的LLMs能够仅使用文本或图像输入执行预测任务，同时保留从多模态数据中获取的知识。MINT通过一个在高质量多模态数据上训练的上游多模态机器学习（MML）模型，将特定领域的见解传递给下游仅文本或仅图像的LLMs。我们通过两个关键应用验证了MINT的有效性：(1) 从文本中预测罕见遗传疾病，MINT利用一个在面部照片和临床笔记上训练的多模态编码模型生成偏好数据集，用于对齐轻量级Llama 3.2-3B-Instruct。尽管仅依赖文本输入，MINT模型在性能上超越了SFT、RAG或DPO训练的模型，甚至优于Llama 3.1-405B-Instruct。(2) 利用细胞核图像进行组织类型分类，MINT采用一个视觉-语言基础模型作为偏好生成器，整合了从文本和病理图像中学到的知识，以对齐下游仅图像的模型。最终，MINT显著提升了Llama 3.2-Vision-11B-Instruct在组织类型分类上的性能。综上所述，MINT通过偏好优化提供了一种有效方法，将单模态LLMs与高质量多模态专业知识对齐。
+
+> The scarcity of high-quality multimodal biomedical data limits the ability to effectively fine-tune pretrained Large Language Models (LLMs) for specialized biomedical tasks. To address this challenge, we introduce MINT (Multimodal Integrated kNowledge Transfer), a framework that aligns unimodal large decoder models with domain-specific decision patterns from multimodal biomedical data through preference optimization. While MINT supports different optimization techniques, we primarily implement it with the Odds Ratio Preference Optimization (ORPO) framework as its backbone. This strategy enables the aligned LLMs to perform predictive tasks using text-only or image-only inputs while retaining knowledge learnt from multimodal data. MINT leverages an upstream multimodal machine learning (MML) model trained on high-quality multimodal data to transfer domain-specific insights to downstream text-only or image-only LLMs. We demonstrate its effectiveness through two key applications: (1) Rare genetic disease prediction from texts, where MINT uses a multimodal encoder model, trained on facial photos and clinical notes, to generate a preference dataset for aligning a lightweight Llama 3.2-3B-Instruct. Despite relying on text input only, the MINT-derived model outperforms models trained with SFT, RAG, or DPO, and even outperforms Llama 3.1-405B-Instruct. (2) Tissue type classification using cell nucleus images, where MINT uses a vision-language foundation model as the preference generator, containing knowledge learnt from both text and histopathological images to align downstream image-only models. The resulting MINT-derived model significantly improves the performance of Llama 3.2-Vision-11B-Instruct on tissue type classification. In summary, MINT provides an effective strategy to align unimodal LLMs with high-quality multimodal expertise through preference optimization.
+
+[Arxiv](https://arxiv.org/abs/2505.05736)
