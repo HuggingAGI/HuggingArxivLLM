@@ -1,0 +1,15 @@
+# 你的下一个编程搭档会是人类吗？生成式AI作为搭档在学期课堂环境中的实证评估
+
+发布时间：2025年05月12日
+
+`LLM应用`
+
+> Will Your Next Pair Programming Partner Be Human? An Empirical Evaluation of Generative AI as a Collaborative Teammate in a Semester-Long Classroom Setting
+
+# 摘要
+
+> 生成式AI（GenAI），特别是大型语言模型（LLMs），正在快速重塑编程工作流和计算机科学教育。如今，许多程序员将GenAI工具融入他们的工作流程，包括在协作编码任务（如结对编程）中使用。尽管先前的研究已证明传统结对编程的优势，并开始探索GenAI辅助编程，但基于LLMs的工具在结对编程中作为协作伙伴的作用仍鲜有研究。本研究中，我们采用混合方法，对39名本科生进行了实验，探讨GenAI如何影响结对编程中的协作、学习和表现。具体而言，学生们在三种条件下完成了六次课堂作业：传统结对编程（PP）、基于GenAI的结对编程（PAI）以及基于GenAI的个人编程（SAI）。他们使用了基于LLMs的内联补全工具（如GitHub Copilot）和基于LLMs的对话工具（如ChatGPT）。研究结果显示，PAI组的学生获得了最高作业分数，而SAI组的成绩最低。此外，学生们在与基于LLMs的工具协作后，对LLMs编程能力的态度有了显著提升，其偏好主要受工具在完成作业和学习编程技能方面的有用性，以及协作质量的影响。我们的质性研究进一步揭示，尽管学生们认为基于LLMs的工具是宝贵的结对编程伙伴，但他们也指出了工具的局限性，并与人类队友相比有着不同的期望。本研究通过比较三种条件（PP、PAI和SAI），提供了首批关于GenAI作为结对编程协作伙伴的实证评估之一。我们还讨论了未来基于GenAI的结对编程方法的设计启示和教学考量。
+
+> Generative AI (GenAI), especially Large Language Models (LLMs), is rapidly reshaping both programming workflows and computer science education. Many programmers now incorporate GenAI tools into their workflows, including for collaborative coding tasks such as pair programming. While prior research has demonstrated the benefits of traditional pair programming and begun to explore GenAI-assisted coding, the role of LLM-based tools as collaborators in pair programming remains underexamined. In this work, we conducted a mixed-methods study with 39 undergraduate students to examine how GenAI influences collaboration, learning, and performance in pair programming. Specifically, students completed six in-class assignments under three conditions: Traditional Pair Programming (PP), Pair Programming with GenAI (PAI), and Solo Programming with GenAI (SAI). They used both LLM-based inline completion tools (e.g., GitHub Copilot) and LLM-based conversational tools (e.g., ChatGPT). Our results show that students in PAI achieved the highest assignment scores, whereas those in SAI attained the lowest. Additionally, students' attitudes toward LLMs' programming capabilities improved significantly after collaborating with LLM-based tools, and preferences were largely shaped by the perceived usefulness for completing assignments and learning programming skills, as well as the quality of collaboration. Our qualitative findings further reveal that while students appreciated LLM-based tools as valuable pair programming partners, they also identified limitations and had different expectations compared to human teammates. Our study provides one of the first empirical evaluations of GenAI as a pair programming collaborator through a comparison of three conditions (PP, PAI, and SAI). We also discuss the design implications and pedagogical considerations for future GenAI-assisted pair programming approaches.
+
+[Arxiv](https://arxiv.org/abs/2505.08119)
