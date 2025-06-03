@@ -1,0 +1,15 @@
+# 评估大型语言模型在危机检测中的表现：基于心理支持热线的真实世界基准
+
+发布时间：2025年06月02日
+
+`LLM应用` `心理健康` `危机干预`
+
+> Evaluating Large Language Models in Crisis Detection: A Real-World Benchmark from Psychological Support Hotlines
+
+# 摘要
+
+> 心理支持热线在危机干预中扮演着关键角色，但随着需求的激增，它们正面临前所未有的挑战。大型语言模型（LLMs）在支持危机评估方面展现出潜力，但其在情感敏感情境下的表现仍需深入研究。我们推出了PsyCrisisBench，一个基于杭州心理援助热线540份标注对话记录的基准测试，旨在评估情绪状态识别、自杀意念检测、自杀计划识别和风险评估四大任务。我们对来自15个模型系列（如GPT、Claude、Gemini、Llama、Qwen、DeepSeek）的64个LLMs进行了全面评估，采用了零样本、少样本和微调三种范式。通过F1-score衡量模型性能，并借助Welch's t-tests进行统计比较。结果显示，LLMs在自杀意念检测（F1=0.880）、自杀计划识别（F1=0.779）和风险评估（F1=0.907）方面表现尤为突出，少样本学习和微调进一步提升了性能。相比之下，情绪状态识别更具挑战性（最高F1=0.709），这可能与语音线索的缺失和情境模糊性有关。值得注意的是，经过微调的1.5B参数模型（Qwen2.5-1.5B）在情绪和自杀意念检测方面超越了更大规模的模型。开源模型如QwQ-32B在大多数任务上与闭源模型表现相当（p>0.3），尽管在情绪检测方面，闭源模型仍保持微弱优势（p=0.007）。模型性能随规模增长到一定程度后趋于平稳；量化技术（AWQ）将GPU内存占用降低了70%，同时对F1-score的影响微乎其微。总体而言，LLMs在结构化心理危机评估中展现出巨大潜力，尤其是在经过微调后。然而，情绪识别受限于情境复杂性，仍需进一步研究。开源和闭源模型之间差距的缩小，结合高效量化技术的应用，为心理危机评估的实际应用提供了可行的整合方案。PsyCrisisBench不仅提供了一个强大的评估框架，还为模型开发和心理健康领域的道德部署提供了重要指导。
+
+> Psychological support hotlines are critical for crisis intervention but face significant challenges due to rising demand. Large language models (LLMs) could support crisis assessments, yet their capabilities in emotionally sensitive contexts remain unclear. We introduce PsyCrisisBench, a benchmark of 540 annotated transcripts from the Hangzhou Psychological Assistance Hotline, assessing four tasks: mood status recognition, suicidal ideation detection, suicide plan identification, and risk assessment. We evaluated 64 LLMs across 15 families (e.g., GPT, Claude, Gemini, Llama, Qwen, DeepSeek) using zero-shot, few-shot, and fine-tuning paradigms. Performance was measured by F1-score, with statistical comparisons via Welch's t-tests. LLMs performed strongly on suicidal ideation detection (F1=0.880), suicide plan identification (F1=0.779), and risk assessment (F1=0.907), improved with few-shot and fine-tuning. Mood status recognition was more challenging (max F1=0.709), likely due to lost vocal cues and ambiguity. A fine-tuned 1.5B-parameter model (Qwen2.5-1.5B) surpassed larger models on mood and suicidal ideation. Open-source models like QwQ-32B performed comparably to closed-source on most tasks (p>0.3), though closed models retained an edge in mood detection (p=0.007). Performance scaled with size up to a point; quantization (AWQ) reduced GPU memory by 70% with minimal F1 degradation. LLMs show substantial promise in structured psychological crisis assessments, especially with fine-tuning. Mood recognition remains limited due to contextual complexity. The narrowing gap between open- and closed-source models, combined with efficient quantization, suggests feasible integration. PsyCrisisBench offers a robust evaluation framework to guide model development and ethical deployment in mental health.
+
+[Arxiv](https://arxiv.org/abs/2506.01329)
