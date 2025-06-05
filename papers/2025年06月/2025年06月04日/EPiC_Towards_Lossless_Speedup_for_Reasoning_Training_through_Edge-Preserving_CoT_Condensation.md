@@ -1,0 +1,17 @@
+# EPiC: 通过边缘保留的CoT压缩实现推理训练的无损加速
+
+发布时间：2025年06月04日
+
+`LLM应用
+
+论文摘要：大规模语言模型（LLMs）在链式思维（CoT）监督下展现出了强大的推理能力。然而，从大型推理模型（如DeepSeek-R1）中提取的冗长CoT轨迹在蒸馏过程中显著增加了训练成本。蒸馏过程旨在将不具备推理能力的基础模型训练成能够模仿大型推理模型（LRM）推理行为的模型。本研究聚焦于资源高效的推理训练中的CoT浓缩问题，旨在通过剪枝CoT轨迹中的中间推理步骤（即思维过程），在保持答案准确性和模型生成连贯推理能力的同时，实现对长度缩减的CoT数据进行监督模型训练。我们发现，CoT轨迹通常遵循三阶段结构：问题理解、探索和解决方案收敛。通过实证分析，我们发现，保留推理轨迹的结构，特别是问题理解的早期阶段（富含反思线索）和解决方案收敛的最终阶段，足以实现无损推理监督。为此，我们提出了一种边缘保留浓缩方法（EPiC），该方法选择性地保留每个CoT轨迹的初始和最终部分，同时丢弃中间部分。这种设计类似于保留推理轨迹的“边缘”，捕捉初始问题框架和最终答案合成，以维持逻辑连贯性。在多个模型家族（Qwen和LLaMA）和基准测试中的实验表明，EPiC将训练时间减少了34%以上，同时在MATH500上实现了与完整CoT监督相当的无损推理准确率。据我们所知，这是首个探索思维级CoT浓缩以实现高效推理模型蒸馏的研究。` `人工智能` `模型训练`
+
+> EPiC: Towards Lossless Speedup for Reasoning Training through Edge-Preserving CoT Condensation
+
+# 摘要
+
+> 大规模语言模型（LLMs）在链式思维（CoT）监督下展现出了强大的推理能力。然而，从大型推理模型（如DeepSeek-R1）中提取的冗长CoT轨迹在蒸馏过程中显著增加了训练成本。蒸馏过程旨在将不具备推理能力的基础模型训练成能够模仿大型推理模型（LRM）推理行为的模型。本研究聚焦于资源高效的推理训练中的CoT浓缩问题，旨在通过剪枝CoT轨迹中的中间推理步骤（即思维过程），在保持答案准确性和模型生成连贯推理能力的同时，实现对长度缩减的CoT数据进行监督模型训练。我们发现，CoT轨迹通常遵循三阶段结构：问题理解、探索和解决方案收敛。通过实证分析，我们发现，保留推理轨迹的结构，特别是问题理解的早期阶段（富含反思线索）和解决方案收敛的最终阶段，足以实现无损推理监督。为此，我们提出了一种边缘保留浓缩方法（EPiC），该方法选择性地保留每个CoT轨迹的初始和最终部分，同时丢弃中间部分。这种设计类似于保留推理轨迹的“边缘”，捕捉初始问题框架和最终答案合成，以维持逻辑连贯性。在多个模型家族（Qwen和LLaMA）和基准测试中的实验表明，EPiC将训练时间减少了34%以上，同时在MATH500上实现了与完整CoT监督相当的无损推理准确率。据我们所知，这是首个探索思维级CoT浓缩以实现高效推理模型蒸馏的研究。
+
+> Large language models (LLMs) have shown remarkable reasoning capabilities when trained with chain-of-thought (CoT) supervision. However, the long and verbose CoT traces, especially those distilled from large reasoning models (LRMs) such as DeepSeek-R1, significantly increase training costs during the distillation process, where a non-reasoning base model is taught to replicate the reasoning behavior of an LRM. In this work, we study the problem of CoT condensation for resource-efficient reasoning training, aimed at pruning intermediate reasoning steps (i.e., thoughts) in CoT traces, enabling supervised model training on length-reduced CoT data while preserving both answer accuracy and the model's ability to generate coherent reasoning. Our rationale is that CoT traces typically follow a three-stage structure: problem understanding, exploration, and solution convergence. Through empirical analysis, we find that retaining the structure of the reasoning trace, especially the early stage of problem understanding (rich in reflective cues) and the final stage of solution convergence, is sufficient to achieve lossless reasoning supervision. To this end, we propose an Edge-Preserving Condensation method, EPiC, which selectively retains only the initial and final segments of each CoT trace while discarding the middle portion. This design draws an analogy to preserving the "edge" of a reasoning trajectory, capturing both the initial problem framing and the final answer synthesis, to maintain logical continuity. Experiments across multiple model families (Qwen and LLaMA) and benchmarks show that EPiC reduces training time by over 34% while achieving lossless reasoning accuracy on MATH500, comparable to full CoT supervision. To the best of our knowledge, this is the first study to explore thought-level CoT condensation for efficient reasoning model distillation.
+
+[Arxiv](https://arxiv.org/abs/2506.04205)
