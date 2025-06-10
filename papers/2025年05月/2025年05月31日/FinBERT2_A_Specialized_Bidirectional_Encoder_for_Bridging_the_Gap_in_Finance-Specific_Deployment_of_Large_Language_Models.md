@@ -1,0 +1,15 @@
+# # FinBERT2: 专为填补大型语言模型在金融领域专用部署中的空白而设计的双向编码器
+
+发布时间：2025年05月31日
+
+`其他`
+
+> FinBERT2: A Specialized Bidirectional Encoder for Bridging the Gap in Finance-Specific Deployment of Large Language Models
+
+# 摘要
+
+> 在自然语言处理（NLP）领域，研究焦点已从编码器型的小语言模型（如BERT）转向解码器型的大语言模型（LLMs，例如GPT-3）。然而，LLMs在金融领域的实际应用暴露了三大局限：（1）尽管计算资源消耗更高，LLMs在判别任务（如财报情绪分析）上的表现常劣于微调后的BERT；（2）生成任务的应用严重依赖检索增强生成（RAG）方法来提供及时且专业的信息，而通用检索器在特定领域检索任务上表现欠佳；（3）在其他基于特征的场景（如主题建模）中也存在明显不足。我们推出了FinBERT2，一个基于高质量中文金融语料库（320亿 tokens）预训练的专用双向编码器。这是目前所知参数规模下最大的中文金融预训练语料库。作为更优的模型架构，FinBERT2通过以下成果弥合了LLMs在金融领域应用的缺口：（1）在五个金融分类任务中，判别式微调模型（Fin-Labelers）的表现优于其他（Fin）BERT变体0.4%-3.3%，领先主流LLMs 9.7%-12.3%；（2）对比式微调模型（Fin-Retrievers）在五个金融检索任务中，表现超越开源模型（如BGE-base-zh，平均提升6.8%）及专有模型（如OpenAI的text-embedding-3-large，平均提升4.2%）；（3）基于FinBERT2变体构建的Fin-TopicModel实现了金融标题的更优聚类与主题表示。本研究通过与当代LLMs的对比分析，重审了金融BERT模型的价值，并为LLMs时代有效运用FinBERT提供了实践洞见。
+
+> In natural language processing (NLP), the focus has shifted from encoder-only tiny language models like BERT to decoder-only large language models(LLMs) such as GPT-3. However, LLMs' practical application in the financial sector has revealed three limitations: (1) LLMs often perform worse than fine-tuned BERT on discriminative tasks despite costing much higher computational resources, such as market sentiment analysis in financial reports; (2) Application on generative tasks heavily relies on retrieval augmented generation (RAG) methods to provide current and specialized information, with general retrievers showing suboptimal performance on domain-specific retrieval tasks; (3) There are additional inadequacies in other feature-based scenarios, such as topic modeling. We introduce FinBERT2, a specialized bidirectional encoder pretrained on a high-quality, financial-specific corpus of 32b tokens. This represents the largest known Chinese financial pretraining corpus for models of this parameter size. As a better backbone, FinBERT2 can bridge the gap in the financial-specific deployment of LLMs through the following achievements: (1) Discriminative fine-tuned models (Fin-Labelers) outperform other (Fin)BERT variants by 0.4%-3.3% and leading LLMs by 9.7%-12.3% on average across five financial classification tasks. (2) Contrastive fine-tuned models (Fin-Retrievers) outperform both open-source (e.g., +6.8\% avg improvement over BGE-base-zh) and proprietary (e.g., +4.2\% avg improvement over OpenAI's text-embedding-3-large) embedders across five financial retrieval tasks; (3) Building on FinBERT2 variants, we construct the Fin-TopicModel, which enables superior clustering and topic representation for financial titles. Our work revisits financial BERT models through comparative analysis with contemporary LLMs and offers practical insights for effectively utilizing FinBERT in the LLMs era.
+
+[Arxiv](https://arxiv.org/abs/2506.06335)
