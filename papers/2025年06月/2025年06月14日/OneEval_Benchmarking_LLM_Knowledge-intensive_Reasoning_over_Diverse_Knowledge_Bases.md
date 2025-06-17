@@ -1,0 +1,17 @@
+# OneEval：评估LLM在多样化知识库中的知识密集型推理能力
+
+发布时间：2025年06月14日
+
+`LLM应用
+
+论文摘要：大型语言模型（LLMs）在非结构化文本推理方面取得了长足的进步，但面对需要整合知识图谱、代码片段或形式逻辑等结构化外部知识的推理任务时，其表现明显下降。这一限制部分源于缺乏能够系统评估LLMs在多种结构化知识模态下性能的基准测试。为了解决这一问题，我们推出了\textbf{\textsc{OneEval}}——一个全面的基准测试，旨在全面评估LLMs在四种结构化知识模态（非结构化文本、知识图谱、代码和形式逻辑）以及五个关键领域（通用知识、政府、科学、法律和编程）中的知识密集型推理能力。\textsc{OneEval}包含4019个精心挑选的案例，并特别设计了一个极具挑战性的子集\textsc{OneEval}\textsubscript{Hard}，其中收录了1285个尤为困难的测试案例。通过对18个当前最先进的开源和专有LLMs进行深入评估，我们得出了三大关键发现：a) \emph{结构化推理能力存在明显局限}，即使是最强大的模型在\textsc{OneEval}\textsubscript{Hard}上的准确率也只有32.2%；b) \emph{推理性能随着知识库结构复杂性的增加而持续下降}，准确率从文本推理的53%急剧下滑到形式逻辑推理的25%；c) \emph{延长推理链带来的收益逐渐减少}，凸显了模型根据任务复杂性灵活调整推理深度的重要性。我们已公开发布了\textsc{OneEval}数据集、评估脚本和基线结果，并附带排行榜，以推动结构化知识推理领域的持续创新与进步。` `人工智能` `知识图谱`
+
+> OneEval: Benchmarking LLM Knowledge-intensive Reasoning over Diverse Knowledge Bases
+
+# 摘要
+
+> 大型语言模型（LLMs）在非结构化文本推理方面取得了长足的进步，但面对需要整合知识图谱、代码片段或形式逻辑等结构化外部知识的推理任务时，其表现明显下降。这一限制部分源于缺乏能够系统评估LLMs在多种结构化知识模态下性能的基准测试。为了解决这一问题，我们推出了\textbf{\textsc{OneEval}}——一个全面的基准测试，旨在全面评估LLMs在四种结构化知识模态（非结构化文本、知识图谱、代码和形式逻辑）以及五个关键领域（通用知识、政府、科学、法律和编程）中的知识密集型推理能力。\textsc{OneEval}包含4019个精心挑选的案例，并特别设计了一个极具挑战性的子集\textsc{OneEval}\textsubscript{Hard}，其中收录了1285个尤为困难的测试案例。通过对18个当前最先进的开源和专有LLMs进行深入评估，我们得出了三大关键发现：a) \emph{结构化推理能力存在明显局限}，即使是最强大的模型在\textsc{OneEval}\textsubscript{Hard}上的准确率也只有32.2%；b) \emph{推理性能随着知识库结构复杂性的增加而持续下降}，准确率从文本推理的53%急剧下滑到形式逻辑推理的25%；c) \emph{延长推理链带来的收益逐渐减少}，凸显了模型根据任务复杂性灵活调整推理深度的重要性。我们已公开发布了\textsc{OneEval}数据集、评估脚本和基线结果，并附带排行榜，以推动结构化知识推理领域的持续创新与进步。
+
+> Large Language Models (LLMs) have demonstrated substantial progress on reasoning tasks involving unstructured text, yet their capabilities significantly deteriorate when reasoning requires integrating structured external knowledge such as knowledge graphs, code snippets, or formal logic. This limitation is partly due to the absence of benchmarks capable of systematically evaluating LLM performance across diverse structured knowledge modalities. To address this gap, we introduce \textbf{\textsc{OneEval}}, a comprehensive benchmark explicitly designed to assess the knowledge-intensive reasoning capabilities of LLMs across four structured knowledge modalities, unstructured text, knowledge graphs, code, and formal logic, and five critical domains (general knowledge, government, science, law, and programming). \textsc{OneEval} comprises 4,019 carefully curated instances and includes a challenging subset, \textsc{OneEval}\textsubscript{Hard}, consisting of 1,285 particularly difficult cases. Through extensive evaluation of 18 state-of-the-art open-source and proprietary LLMs, we establish three core findings: a) \emph{persistent limitations in structured reasoning}, with even the strongest model achieving only 32.2\% accuracy on \textsc{OneEval}\textsubscript{Hard}; b) \emph{performance consistently declines as the structural complexity of the knowledge base increases}, with accuracy dropping sharply from 53\% (textual reasoning) to 25\% (formal logic); and c) \emph{diminishing returns from extended reasoning chains}, highlighting the critical need for models to adapt reasoning depth appropriately to task complexity. We release the \textsc{OneEval} datasets, evaluation scripts, and baseline results publicly, accompanied by a leaderboard to facilitate ongoing advancements in structured knowledge reasoning.
+
+[Arxiv](https://arxiv.org/abs/2506.12577)

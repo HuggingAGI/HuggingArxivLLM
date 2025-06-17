@@ -1,0 +1,18 @@
+# 警惕XAI鸿沟：一个以人为本的LLM框架，推动可解释AI的普及化
+
+发布时间：2025年06月13日
+
+`LLM应用
+
+论文摘要：人工智能 (AI) 深入应用于关键决策系统，但其基础的 ``黑箱'' 模型仍需通过可解释性 AI (XAI) 提升透明度。然而，现有的 XAI 解决方案大多面向专家，对非专家而言难以理解。近期研究表明，AI 对人类价值观带来的风险日益凸显，这使得开发透明且以人为本的 XAI 解决方案变得尤为迫切。在本研究中，我们提出了一种领域无关、模型无关、解释无关的通用且可复现的框架，旨在为专家和非专家提供透明且量身定制的解释。该框架基于大型语言模型 (LLMs)，通过上下文学习将领域相关和可解释性相关的知识融入模型。通过结构化的提示和系统设置，我们的框架能够在单次响应中同时为非专家提供易于理解的解释，为专家呈现技术细节，所有内容均以领域和可解释性原则为基础。为了验证框架的有效性，我们通过严格的基准测试，结合超过 40 种数据、模型和 XAI 组合，构建了一个基于上下文的 ``知识库''，用于福祉场景下的可解释性聚类分析。通过对框架解释的质量和对人类友好程度的全面评估，我们发现其内容质量与 ground-truth 解释高度相关 (Spearman 秩相关=0.92)，并通过用户研究 (N=56) 验证了其对非专家的可解释性和友好性。我们的评估结果表明，LLMs 可以作为 HCXAI（以人为中心的可解释 AI）的可靠工具，因为我们的框架成功地 (i) 提供了与基础 XAI 方法一致的高质量技术解释，以及 (ii) 为非专家打造了清晰、高效且易于理解的以人为本的解释，从而填补了现有研究的空白。
+LLM应用` `可解释性 AI`
+
+> Mind the XAI Gap: A Human-Centered LLM Framework for Democratizing Explainable AI
+
+# 摘要
+
+> 人工智能 (AI) 深入应用于关键决策系统，但其基础的 ``黑箱'' 模型仍需通过可解释性 AI (XAI) 提升透明度。然而，现有的 XAI 解决方案大多面向专家，对非专家而言难以理解。近期研究表明，AI 对人类价值观带来的风险日益凸显，这使得开发透明且以人为本的 XAI 解决方案变得尤为迫切。在本研究中，我们提出了一种领域无关、模型无关、解释无关的通用且可复现的框架，旨在为专家和非专家提供透明且量身定制的解释。该框架基于大型语言模型 (LLMs)，通过上下文学习将领域相关和可解释性相关的知识融入模型。通过结构化的提示和系统设置，我们的框架能够在单次响应中同时为非专家提供易于理解的解释，为专家呈现技术细节，所有内容均以领域和可解释性原则为基础。为了验证框架的有效性，我们通过严格的基准测试，结合超过 40 种数据、模型和 XAI 组合，构建了一个基于上下文的 ``知识库''，用于福祉场景下的可解释性聚类分析。通过对框架解释的质量和对人类友好程度的全面评估，我们发现其内容质量与 ground-truth 解释高度相关 (Spearman 秩相关=0.92)，并通过用户研究 (N=56) 验证了其对非专家的可解释性和友好性。我们的评估结果表明，LLMs 可以作为 HCXAI（以人为中心的可解释 AI）的可靠工具，因为我们的框架成功地 (i) 提供了与基础 XAI 方法一致的高质量技术解释，以及 (ii) 为非专家打造了清晰、高效且易于理解的以人为本的解释，从而填补了现有研究的空白。
+
+> Artificial Intelligence (AI) is rapidly embedded in critical decision-making systems, however their foundational ``black-box'' models require eXplainable AI (XAI) solutions to enhance transparency, which are mostly oriented to experts, making no sense to non-experts. Alarming evidence about AI's unprecedented human values risks brings forward the imperative need for transparent human-centered XAI solutions. In this work, we introduce a domain-, model-, explanation-agnostic, generalizable and reproducible framework that ensures both transparency and human-centered explanations tailored to the needs of both experts and non-experts. The framework leverages Large Language Models (LLMs) and employs in-context learning to convey domain- and explainability-relevant contextual knowledge into LLMs. Through its structured prompt and system setting, our framework encapsulates in one response explanations understandable by non-experts and technical information to experts, all grounded in domain and explainability principles. To demonstrate the effectiveness of our framework, we establish a ground-truth contextual ``thesaurus'' through a rigorous benchmarking with over 40 data, model, and XAI combinations for an explainable clustering analysis of a well-being scenario. Through a comprehensive quality and human-friendliness evaluation of our framework's explanations, we prove high content quality through strong correlations with ground-truth explanations (Spearman rank correlation=0.92) and improved interpretability and human-friendliness to non-experts through a user study (N=56). Our overall evaluation confirms trust in LLMs as HCXAI enablers, as our framework bridges the above Gaps by delivering (i) high-quality technical explanations aligned with foundational XAI methods and (ii) clear, efficient, and interpretable human-centered explanations for non-experts.
+
+[Arxiv](https://arxiv.org/abs/2506.12240)

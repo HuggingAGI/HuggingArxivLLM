@@ -1,0 +1,15 @@
+# 大型语言模型与生成式AI对平台完整性、医疗诊断、网络安全、隐私及AI安全的风险与优势：全面综述、发展路线图及实施方案蓝图
+
+发布时间：2025年06月10日
+
+`LLM应用` `网络安全` `生成式AI`
+
+> Risks & Benefits of LLMs & GenAI for Platform Integrity, Healthcare Diagnostics, Cybersecurity, Privacy & AI Safety: A Comprehensive Survey, Roadmap & Implementation Blueprint
+
+# 摘要
+
+> 大型语言模型（LLMs）和生成式AI系统（如ChatGPT、Claude、Gemini、LLaMA和Copilot）正在重塑数字平台和应用生态系统，同时也带来了网络安全、隐私和平台完整性的关键挑战。我们的分析揭示了令人担忧的趋势：LLM辅助的恶意软件预计将从2021年的2%激增至2025年的50%；AI生成的Google评论从2021年的1.2%增长到2023年的12.21%，预计到2025年将达到30%；AI诈骗报告飙升456%；虚假信息网站增长超过1500%，2024年深度伪造增加了50-60%。与此同时，由于LLMs促进了代码开发，移动应用提交量从2020年的180万增至2024年的300万，预计到2025年将达到360万。为了应对AI威胁，从Google Play和Apple应用商店到GitHub Copilot等开发者中心，再到TikTok和Facebook等社交平台，再到亚马逊等市场平台，都在部署基于AI和LLM的防御措施。这凸显了这些技术的双重性质：既是新威胁的来源，也是缓解威胁的关键工具。将LLMs整合到临床诊断中也引发了关于准确性、偏见和安全性的担忧，需要强有力的治理。基于对455份参考资料的全面分析，本文对LLM和生成式AI的风险进行了综述。我们提出了一项整合政策审计（如CCPA、GDPR）、欺诈检测和合规自动化的战略路线图，以及一个先进的LLM-DA堆栈，包含多LLM路由、智能体记忆和治理层等模块化组件，以增强平台完整性。我们还提供了可操作的见解、跨职能的最佳实践和真实世界案例研究。这些贡献为数字平台提供了实现可扩展信任、安全和负责任创新的路径。
+
+> Large Language Models (LLMs) and generative AI (GenAI) systems such as ChatGPT, Claude, Gemini, LLaMA, and Copilot, developed by OpenAI, Anthropic, Google, Meta, and Microsoft are reshaping digital platforms and app ecosystems while introducing key challenges in cybersecurity, privacy, and platform integrity. Our analysis shows alarming trends: LLM-assisted malware is projected to rise from 2% in 2021 to 50% by 2025; AI-generated Google reviews grew from 1.2% in 2021 to 12.21% in 2023, with an expected 30% by 2025; AI scam reports surged 456%; and misinformation sites increased over 1500%, with a 50-60% increase in deepfakes in 2024. Concurrently, as LLMs have facilitated code development, mobile app submissions grew from 1.8 million in 2020 to 3.0 million in 2024, with 3.6 million expected by 2025. To address AI threats, platforms from app stores like Google Play and Apple to developer hubs like GitHub Copilot, and social platforms like TikTok and Facebook, to marketplaces like Amazon are deploying AI and LLM-based defenses. This highlights the dual nature of these technologies as both the source of new threats and the essential tool for their mitigation. Integrating LLMs into clinical diagnostics also raises concerns about accuracy, bias, and safety, needing strong governance. Drawing on a comprehensive analysis of 455 references, this paper presents a survey of LLM and GenAI risks. We propose a strategic roadmap and operational blueprint integrating policy auditing (CCPA, GDPR), fraud detection, and compliance automation, and an advanced LLM-DA stack with modular components including multi LLM routing, agentic memory, and governance layers to enhance platform integrity. We also provide actionable insights, cross-functional best practices, and real-world case studies. These contributions offer paths to scalable trust, safety, and responsible innovation across digital platforms.
+
+[Arxiv](https://arxiv.org/abs/2506.12088)
