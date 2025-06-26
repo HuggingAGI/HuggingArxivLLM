@@ -1,0 +1,15 @@
+# SWE-SQL：照亮 LLM 解决用户 SQL 问题的路径，赋能实际应用
+
+发布时间：2025年06月23日
+
+`LLM应用` `数据库` `SQL`
+
+> SWE-SQL: Illuminating LLM Pathways to Solve User SQL Issues in Real-World Applications
+
+# 摘要
+
+> 解决复杂的SQL问题仍然是实际数据库应用中的主要瓶颈。当前大型语言模型（LLMs）在文本到SQL的翻译方面表现出色，但尚未在更具挑战性的SQL问题调试任务上得到充分评估。为此，我们推出了BIRD-CRITIC，一个全新的SQL问题调试基准，包含530个PostgreSQL任务（BIRD-CRITIC-PG）和570个多种方言任务（BIRD-CRITIC-Multi）。这些任务源自真实的用户问题，并在新环境中重现，以支持严格的评估。基线评估结果显示任务的复杂性，领先推理模型O3-Mini在BIRD-CRITIC-PG上的成功率仅为38.87%，在BIRD-CRITIC-Multi上为33.33%。推动开源模型在数据库任务上的发展对于促进本地创新和保护数据隐私至关重要。因此，我们推出了Six-Gym（Sql-fIX-Gym），一个专注于提升开源模型SQL问题调试能力的训练环境。该环境采用SQL-Rewind策略，通过反向工程已验证的SQL语句，自动生成可执行的问题-解决方案数据集。然而，现有的基于轨迹的微调方法并未充分利用监督信号。为此，我们提出了f-Plan Boosting，它从SQL解决方案中提取高级调试计划，使教师端的LLMs能够生成比现有方法多73.7%的成功轨迹用于训练。我们将这些组件整合到开源代理Bird-Fixer中。基于Qwen-2.5-Coder-14B，Bird-Fixer在BIRD-CRITIC-PG上的成功率为38.11%，在BIRD-CRITIC-Multi上为29.65%，超越了Claude-3.7-Sonnet和GPT-4.1等领先专有模型，标志着在普及复杂SQL调试能力方面迈出的重要一步。排行榜和源代码可在此访问：https://bird-critic.github.io/
+
+> Resolution of complex SQL issues persists as a significant bottleneck in real-world database applications. Current Large Language Models (LLMs), while adept at text-to-SQL translation, have not been rigorously evaluated on the more challenging task of debugging SQL issues. To address this gap, we introduce BIRD-CRITIC, a new SQL issue debugging benchmark comprising 530 PostgreSQL tasks (BIRD-CRITIC-PG) and 570 multi-dialect tasks (BIRD-CRITIC-Multi), distilled from authentic user issues and replayed within new environments to facilitate rigorous evaluation. Baseline evaluations underscore the task's complexity, with the leading reasoning model O3-Mini achieving only 38.87% success rate on BIRD-CRITIC-PG and 33.33% on BIRD-CRITIC-Multi. Meanwhile, advancing open-source models for database tasks is crucial for empowering local development while safeguarding data privacy. Therefore, we present Six-Gym (Sql-fIX-Gym), a training environment for elevating open-source model capabilities for SQL issue debugging. This environment leverages SQL-Rewind strategy, which automatically generates executable issue-solution datasets by reverse-engineering issues from verified SQLs. However, popular trajectory-based fine-tuning methods do not explore substantial supervisory signals. We further propose f-Plan Boosting, which extracts high-level debugging plans from SQL solutions, enabling teacher LLMs to produce 73.7% more successful trajectories for training. We integrate these components into an open-source agent, Bird-Fixer. Based on Qwen-2.5-Coder-14B, Bird-Fixer achieves 38.11% success rate on BIRD-CRITIC-PG and 29.65% on BIRD-CRITIC-Multi, surpassing leading proprietary models such as Claude-3.7-Sonnet and GPT-4.1, marking a significant step toward democratizing sophisticated SQL-debugging capabilities. The leaderboard and source code are available: https://bird-critic.github.io/
+
+[Arxiv](https://arxiv.org/abs/2506.18951)
