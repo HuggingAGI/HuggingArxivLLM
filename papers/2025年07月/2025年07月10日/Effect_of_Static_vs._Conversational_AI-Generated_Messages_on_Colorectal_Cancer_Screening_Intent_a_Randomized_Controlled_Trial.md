@@ -1,0 +1,15 @@
+# 评估静态与对话式AI生成信息对结直肠癌筛查意向的影响：一项随机对照试验研究
+
+发布时间：2025年07月10日
+
+`LLM应用` `人工智能`
+
+> Effect of Static vs. Conversational AI-Generated Messages on Colorectal Cancer Screening Intent: a Randomized Controlled Trial
+
+# 摘要
+
+> 大型语言模型 (LLM) 聊天机器人在说服性沟通方面展现出越来越大的潜力，但在临床环境中的实用性仍待验证，尤其是难以实现持续对话的规模化应用。在一项预注册的随机对照试验中，我们招募了915名45-75岁从未接受过结直肠癌 (CRC) 筛查的美国成年人，随机分配至四组：(1) 无信息对照组，(2) 专家编写的患者材料组，(3) 单一 AI 生成信息组，(4) 动机性访谈聊天机器人组。所有参与者均需在各自组别中停留至少三分钟。AI 组别均根据参与者的年龄和性别等人口统计学信息定制内容。结果显示，两种 AI 干预措施均显著提高了粪便检测意愿（提升12.9-13.8个百分点，100分制），而专家材料组的提升幅度为7.5个百分点（所有比较 p < 0.001）。尽管参与者平均花费了多约3.5分钟与其互动，但 AI 组别在结肠镜检查意图方面并未超越专家材料组。值得注意的是，聊天机器人在提高意图方面并未超越单一 AI 信息，尽管参与者平均花费了更多时间与其互动。这些发现表明，简短、基于人口统计学的 AI 信息可能比更复杂的对话代理和传统的专家编写材料更具可扩展性和临床可行性。此外，LLMs 在说服性方面似乎对较不为人知且侵入性较小的筛查方法（如粪便检测）更为有效，但对于根深蒂固的偏好（如结肠镜检查）可能效果较弱。未来研究应探讨个性化哪些方面能推动行为改变，整合结构性支持是否能将这些微小的意图提升转化为实际筛查完成，以及哪些健康行为最能响应 AI 支持的指导。
+
+> Large language model (LLM) chatbots show increasing promise in persuasive communication. Yet their real-world utility remains uncertain, particularly in clinical settings where sustained conversations are difficult to scale. In a pre-registered randomized controlled trial, we enrolled 915 U.S. adults (ages 45-75) who had never completed colorectal cancer (CRC) screening. Participants were randomized to: (1) no message control, (2) expert-written patient materials, (3) single AI-generated message, or (4) a motivational interviewing chatbot. All participants were required to remain in their assigned condition for at least three minutes. Both AI arms tailored content using participant's self-reported demographics including age and gender. Both AI interventions significantly increased stool test intentions by over 12 points (12.9-13.8/100), compared to a 7.5 gain for expert materials (p<.001 for all comparisons). While the AI arms outperformed the no message control for colonoscopy intent, neither showed improvement xover expert materials. Notably, for both outcomes, the chatbot did not outperform the single AI message in boosting intent despite participants spending ~3.5 minutes more on average engaging with it. These findings suggest concise, demographically tailored AI messages may offer a more scalable and clinically viable path to health behavior change than more complex conversational agents and generic time intensive expert-written materials. Moreover, LLMs appear more persuasive for lesser-known and less-invasive screening approaches like stool testing, but may be less effective for entrenched preferences like colonoscopy. Future work should examine which facets of personalization drive behavior change, whether integrating structural supports can translate these modest intent gains into completed screenings, and which health behaviors are most responsive to AI-supported guidance.
+
+[Arxiv](https://arxiv.org/abs/2507.08211)
