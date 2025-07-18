@@ -1,0 +1,15 @@
+# Mono-InternVL-1.5: 探索更经济、更高效的单体式多模态大语言模型
+
+发布时间：2025年07月16日
+
+`LLM理论` `多模态` `大型语言模型`
+
+> Mono-InternVL-1.5: Towards Cheaper and Faster Monolithic Multimodal Large Language Models
+
+# 摘要
+
+> 本文研究整体式多模态大型语言模型（MLLMs），这类模型将视觉编码与语言解码整合于单一架构中。现有方法常遭遇优化不稳定和灾难性遗忘的挑战。为解决这些问题，我们提出了一种新思路：将视觉参数空间嵌入预训练语言模型，通过增量调优实现从噪声数据中稳定学习视觉知识。基于此，我们推出Mono-InternVL，一种先进的整体式MLLM，它通过多模态专家混合架构整合了多种视觉专家能力。同时，我们为Mono-InternVL设计了创新的内源式视觉预训练（EViP），通过渐进式学习充分释放其视觉潜力。Mono-InternVL在性能上与现有MLLM比肩，但数据成本较高。因此，我们进一步推出Mono-InternVL-1.5，这一更高效、更强的整体式MLLM配备了升级版的EViP++。EViP++为Mono-InternVL-1.5引入了额外的视觉注意力专家，并以更高效的方式重组预训练流程。推理时，它还包含一个融合的CUDA内核以加速专家混合运算。通过这些创新设计，Mono-InternVL-1.5大幅降低了训练和推理成本，同时保持了与Mono-InternVL相当的性能水平。为验证我们的方法，我们在15个基准测试中进行了全面实验。结果显示，Mono-InternVL在12个基准测试中优于现有整体式MLLM，例如在OCR Bench上较Emu3提升了114分。与模块化版本InternVL-1.5相比，Mono-InternVL-1.5实现了类似的多模态性能，同时将首次令牌延迟降低了高达69%。项目代码和模型已开源，地址为https://github.com/OpenGVLab/Mono-InternVL。
+
+> This paper focuses on monolithic Multimodal Large Language Models (MLLMs), which integrate visual encoding and language decoding into a single model. Existing structures and pre-training strategies for monolithic MLLMs often suffer from unstable optimization and catastrophic forgetting. To address these challenges, our key idea is to embed a new visual parameter space into a pre-trained LLM, enabling stable learning of visual knowledge from noisy data via delta tuning. Based on this principle, we first introduce Mono-InternVL, an advanced monolithic MLLM that incorporates a set of visual experts through a multimodal mixture-of-experts architecture. In addition, we design an innovative Endogenous Visual Pre-training (EViP) for Mono-InternVL to maximize its visual capabilities via progressive learning. Mono-InternVL achieves competitive performance against existing MLLMs but also leads to relatively expensive data cost. Therefore, we further present Mono-InternVL-1.5, a cheaper and stronger monolithic MLLM equipped with an improved EViP (EViP++). EViP++ introduces additional visual attention experts to Mono-InternVL-1.5 and re-organizes the pre-training process in an efficient manner. During inference, it includes a fused CUDA kernel to speed up its MoE operations. With these designs, Mono-InternVL-1.5 significantly reduces training and inference costs, while still maintaining competitive performance with Mono-InternVL. To evaluate our approach, we conduct extensive experiments across 15 benchmarks. Results demonstrate that Mono-InternVL outperforms existing monolithic MLLMs on 12 out of 15 benchmarks, e.g., +114-point improvement over Emu3 on OCRBench. Compared to its modular counterpart, i.e., InternVL-1.5, Mono-InternVL-1.5 achieves similar multimodal performance while reducing first-token latency by up to 69%. Code and models are released at https://github.com/OpenGVLab/Mono-InternVL.
+
+[Arxiv](https://arxiv.org/abs/2507.12566)
