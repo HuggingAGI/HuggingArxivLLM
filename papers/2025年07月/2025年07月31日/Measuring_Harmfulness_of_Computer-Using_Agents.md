@@ -1,0 +1,15 @@
+# # 评估计算机使用代理的危害性
+
+发布时间：2025年07月31日
+
+`Agent` `计算机安全` `人工智能`
+
+> Measuring Harmfulness of Computer-Using Agents
+
+# 摘要
+
+> 计算机使用代理（CUAs）自主控制计算机执行多步骤操作，若被滥用可能带来重大安全风险。现有的基准测试主要评估语言模型在聊天机器人或简单工具使用场景中的安全风险，但并未赋予其完整的计算机访问权限。为了更好地评估CUAs的滥用风险，我们引入了一个新基准测试：CUAHarm。CUAHarm包含104个专家编写的现实滥用风险场景，例如禁用防火墙、泄露机密信息、发起拒绝服务攻击或安装后门程序。我们提供了一个沙盒环境和基于规则的可验证奖励机制，用于衡量CUAs在执行这些任务（例如防火墙是否确实被禁用）的成功率，而不仅仅是拒绝执行。我们评估了多个前沿开源和专有语言模型，如Claude Sonnet、GPT-4o、Gemini Pro 1.5、Llama-3.3-70B和Mistral Large 2。令人惊讶的是，即使没有经过精心设计的越狱提示，这些前沿语言模型仍以高成功率（例如Claude 3.7 Sonnet的成功率为59%）执行这些恶意任务。 newer models表现出更高的滥用率：Claude 3.7 Sonnet的成功任务数比Claude 3.5高出15%。尽管这些模型在聊天机器人设置中对常见恶意提示（例如制造炸弹）具有很强的鲁棒性，但作为CUAs时它们表现出不安全行为。我们进一步评估了一个领先的智能体框架（UI-TARS-1.5），发现虽然它提高了性能，但也放大了滥用风险。良性变体揭示拒绝行为源于对齐，而非能力限制。为了缓解风险，我们探索使用语言模型监控CUAs的操作和思路链（CoTs）。监控CUAs比监控聊天机器人输出困难得多。监控CoTs仅带来有限的改进，平均检测准确率仅为72%。即使采用层次化总结，改进也仅限于4%。CUAHarm将在https://github.com/db-ol/CUAHarm上发布。
+
+> Computer-using agents (CUAs), which autonomously control computers to perform multi-step actions, might pose significant safety risks if misused. Existing benchmarks mostly evaluate language models' (LMs) safety risks in chatbots or simple tool-usage scenarios, without granting full computer access. To better evaluate CUAs' misuse risks, we introduce a new benchmark: CUAHarm. CUAHarm consists of 104 expert-written realistic misuse risks, such as disabling firewalls, leaking confidential information, launching denial-of-service attacks, or installing backdoors. We provide a sandbox environment and rule-based verifiable rewards to measure CUAs' success rates in executing these tasks (e.g., whether the firewall is indeed disabled), not just refusal. We evaluate multiple frontier open-source and proprietary LMs, such as Claude Sonnet, GPT-4o, Gemini Pro 1.5, Llama-3.3-70B, and Mistral Large 2. Surprisingly, even without carefully designed jailbreaking prompts, these frontier LMs comply with executing these malicious tasks at a high success rate (e.g., 59% for Claude 3.7 Sonnet). Newer models show higher misuse rates: Claude 3.7 Sonnet succeeds on 15% more tasks than Claude 3.5. While these models are robust to common malicious prompts (e.g., creating a bomb) in chatbot settings, they behave unsafely as CUAs. We further evaluate a leading agentic framework (UI-TARS-1.5) and find that while it improves performance, it also amplifies misuse risks. Benign variants reveal refusals stem from alignment, not capability limits. To mitigate risks, we explore using LMs to monitor CUAs' actions and chain-of-thoughts (CoTs). Monitoring CUAs is significantly harder than chatbot outputs. Monitoring CoTs yields modest gains, with average detection accuracy at only 72%. Even with hierarchical summarization, improvement is limited to 4%. CUAHarm will be released at https://github.com/db-ol/CUAHarm.
+
+[Arxiv](https://arxiv.org/abs/2508.00935)
