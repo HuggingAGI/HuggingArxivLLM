@@ -1,0 +1,15 @@
+# LaV-CoT：语言感知视觉思维链（Language-Aware Visual CoT）——基于多方面奖励优化的真实世界多语言视觉问答
+
+发布时间：2025年09月12日
+
+`LLM应用` `工业与制造`
+
+> LaV-CoT: Language-Aware Visual CoT with Multi-Aspect Reward Optimization for Real-World Multilingual VQA
+
+# 摘要
+
+> 随着大型视觉语言模型（VLMs）的不断进步，其在多语言视觉问答（mVQA）任务中的性能已大幅增强。思维链（CoT）推理已被证实能提升模型的可解释性和复杂推理能力，但现有方法大多依赖文本CoT，对多语言多模态推理的支持不足，制约了其在实际场景中的落地应用。为弥合这一差距，我们提出	extbf{LaV-CoT}——首个具备多方面奖励优化的语言感知视觉CoT框架。LaV-CoT构建了可解释的多阶段推理流程，具体包括带边界框（BBox）的文本摘要、语言识别、空间对象级描述及逐步逻辑推理。基于该推理流程，我们设计了自动化数据构建方法，通过迭代生成、校正与优化生成多语言CoT标注，从而获得可扩展的高质量训练数据。为提升推理与泛化能力，LaV-CoT采用两阶段训练模式，将监督微调（SFT）与语言感知组相对策略优化（GRPO）相结合，并以可验证的多维度奖励（涵盖语言一致性、结构准确性及语义对齐）为指导。在MMMB、多语言MMBench和MTVQA等公开数据集上的大量实验显示，LaV-CoT相比同规模开源基线准确率提升高达【数学公式】9.5%，甚至超越2倍规模模型【数学公式】2.6%；此外，LaV-CoT还超越了GPT-4o-0513和Gemini-2.5-flash等先进专有模型。我们通过在线A/B测试在真实数据上验证了该方法，证实其在工业部署中的有效性。代码链接如下：\href{https://github.com/HJNVR/LaV-CoT}
+
+> As large vision language models (VLMs) advance, their capabilities in multilingual visual question answering (mVQA) have significantly improved. Chain-of-thought (CoT) reasoning has been proven to enhance interpretability and complex reasoning. However, most existing approaches rely primarily on textual CoT and provide limited support for multilingual multimodal reasoning, constraining their deployment in real-world applications. To address this gap, we introduce \textbf{LaV-CoT}, the first Language-aware Visual CoT framework with Multi-Aspect Reward Optimization. LaV-CoT incorporates an interpretable multi-stage reasoning pipeline consisting of Text Summary with Bounding Box (BBox), Language Identification, Spatial Object-level Captioning, and Step-by-step Logical Reasoning. Following this reasoning pipeline, we design an automated data curation method that generates multilingual CoT annotations through iterative generation, correction, and refinement, enabling scalable and high-quality training data. To improve reasoning and generalization, LaV-CoT adopts a two-stage training paradigm combining Supervised Fine-Tuning (SFT) with Language-aware Group Relative Policy Optimization (GRPO), guided by verifiable multi-aspect rewards including language consistency, structural accuracy, and semantic alignment. Extensive evaluations on public datasets including MMMB, Multilingual MMBench, and MTVQA show that LaV-CoT achieves up to \(\sim\)9.5\% accuracy improvements over open-source baselines of similar size and even surpasses models with 2$\times$ larger scales by \(\sim\)2.6\%. Moreover, LaV-CoT outperforms advanced proprietary models such as GPT-4o-0513 and Gemini-2.5-flash. We further conducted an online A/B test to validate our method on real-world data, highlighting its effectiveness for industrial deployment. Our code is available at this link: \href{https://github.com/HJNVR/LaV-CoT}
+
+[Arxiv](https://arxiv.org/abs/2509.10026)
